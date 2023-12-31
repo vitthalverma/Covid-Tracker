@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:api_demo/model/country_model.dart';
 import 'package:api_demo/model/world_state_model.dart';
 import 'package:api_demo/services/app_url.dart';

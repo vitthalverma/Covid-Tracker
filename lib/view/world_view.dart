@@ -20,7 +20,6 @@ class _WorldStatScreenState extends State<WorldStatScreen>
 
   @override
   void dispose() {
-    // TODO: implement dispose
     super.dispose();
     _controller.dispose();
   }
@@ -118,7 +117,8 @@ class _WorldStatScreenState extends State<WorldStatScreen>
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: ((context) => CountriesList())));
+                                    builder: ((context) =>
+                                        const CountriesList())));
                           },
                           child: Container(
                             height: MediaQuery.of(context).size.height * 0.06,
